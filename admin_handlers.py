@@ -12,8 +12,8 @@ from telegram.constants import ParseMode
 
 logger = logging.getLogger(__name__)
 
-# Import from main bot file
-from bot import (
+# Import from shared module
+from shared import (
     db, is_admin, ITEMS_PER_PAGE, get_country_flag,
     WAITING_COUNTRY_NAME, WAITING_COUNTRY_CODE, WAITING_PHONE_CODE, 
     WAITING_PRICE, WAITING_STOCK, WAITING_DESCRIPTION, WAITING_FILE,
